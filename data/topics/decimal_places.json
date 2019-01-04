@@ -1,0 +1,6 @@
+{
+    "id": "decimal_places",
+    "title": "Decimal Places",
+    "description": "Shorten long decimals",
+    "requires": ["rounding"]
+}

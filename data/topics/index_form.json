@@ -1,0 +1,6 @@
+{
+    "id": "index_form",
+    "title": "Index Form",
+    "description": "Fancy way of writing prime factors",
+    "requires": ["prime_factors", "bodmas"]
+}

@@ -1,0 +1,6 @@
+{
+    "id": "orders",
+    "title": "Orders",
+    "description": "Squaring, Cubing, Square Roots, etc.",
+    "requires": ["numbers"]
+}

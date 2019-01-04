@@ -1,0 +1,6 @@
+{
+    "id": "prime_factors",
+    "title": "Prime Factorisation",
+    "description": "Make up numbers as multiples of prime numbers",
+    "requires": ["number_properties"]
+}

@@ -1,0 +1,6 @@
+{
+    "id": "rounding",
+    "title": "Rounding",
+    "description": "Rounding",
+    "requires": ["fractions", "directed"]
+}

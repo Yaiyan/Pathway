@@ -1,0 +1,6 @@
+{
+    "id": "ratios",
+    "title": "Ratios",
+    "description": "Writing down the difference between numbers",
+    "requires": ["comparing"]
+}

@@ -1,0 +1,6 @@
+{
+    "id": "comparing",
+    "title": "Comparing the Size of Numbers",
+    "description": "Gets funky with percentages",
+    "requires": ["decimal_places"]
+}

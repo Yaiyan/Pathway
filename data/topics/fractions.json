@@ -1,0 +1,6 @@
+{
+    "id": "fractions",
+    "title": "Fractions",
+    "description": "Numbers that aren't whole numbers :o",
+    "requires": ["numbers"]
+}

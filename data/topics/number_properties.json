@@ -1,0 +1,6 @@
+{
+    "id": "number_properties",
+    "title": "Properties of Numbers",
+    "description": "Prime, odd, even, factors, etc.",
+    "requires": ["directed"]
+}

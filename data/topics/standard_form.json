@@ -1,0 +1,6 @@
+{
+    "id": "standard_form",
+    "title": "Standard Form",
+    "description": "Fancy way of writing big numbers",
+    "requires": ["bodmas"]
+}

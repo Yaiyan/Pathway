@@ -1,0 +1,6 @@
+{
+    "id": "recurring_fractions",
+    "title": "Writing recurring decimals as fractions",
+    "description": "Is fun",
+    "requires": ["fractions"]
+}

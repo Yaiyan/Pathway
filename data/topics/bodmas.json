@@ -1,0 +1,6 @@
+{
+    "id": "bodmas",
+    "title": "Bodmas",
+    "description": "Brackets, Order, Division, Multiplication, Addition, Subtraction",
+    "requires": ["orders"]
+}

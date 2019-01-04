@@ -1,0 +1,6 @@
+{
+    "id": "directed",
+    "title": "Directed Numbers",
+    "description": "Numbers can be smaller than 0",
+    "requires": ["numbers"]
+}

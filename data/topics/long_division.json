@@ -1,0 +1,6 @@
+{
+    "id": "long_division",
+    "title": "Long Division",
+    "description": "Dividing numbers by hand",
+    "requires": ["numbers"]
+}

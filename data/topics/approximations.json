@@ -1,0 +1,6 @@
+{
+    "id": "approximations",
+    "title": "Approximating solutions",
+    "description": "Approximating and estimating the solution to sums",
+    "requires": ["rounding"]
+}

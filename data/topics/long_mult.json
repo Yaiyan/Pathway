@@ -1,0 +1,6 @@
+{
+    "id": "long_mult",
+    "title": "Long Multiplication",
+    "description": "Multiplying numbers by hand",
+    "requires": ["numbers"]
+}

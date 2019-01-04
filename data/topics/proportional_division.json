@@ -1,0 +1,6 @@
+{
+    "id": "proportional_division",
+    "title": "Proportional Division",
+    "description": "Dividing stuff up",
+    "requires": ["ratios"]
+}
