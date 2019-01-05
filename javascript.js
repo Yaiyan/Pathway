@@ -1,4 +1,4 @@
-function select_topic(topic) {
+/*function select_topic(topic) {
     document.getElementById('from').innerHTML = "";
     document.getElementById('current').innerHTML = "";
     document.getElementById('to').innerHTML = "";
@@ -38,7 +38,58 @@ function add_topic(topic, box) {
 function toggle_topic(topic) {
     topics[topic].completed = 1-topics[topic].completed;
     select_topic(topic);
+}*/
+
+function complete_topic(topic) {
+    topics[topic].completed = true;
+
+    render_complete_case();
+    render_next_case();
 }
 
-topics.maths.completed = true;
-select_topic('place_value');
+function render_complete_case() {
+    html = ''
+    Object.keys(topics).forEach(function(topic) {
+        if(topics[topic].completed) {
+            html += render_topic(topic);
+        }
+    });
+    document.getElementById('complete_skills_case').innerHTML = html;
+}
+
+
+function render_next_case() {
+    html = ''
+    Object.keys(topics).forEach(function(topic) {
+        if(!topics[topic].completed) {
+            can_complete = true;
+            
+            topics[topic].requires.forEach(function(topic) {
+                if(!topics[topic].completed) {
+                    can_complete = false;
+                }
+            });
+            
+            if(can_complete) {
+                html += render_topic(topic);
+            }
+        }
+    });
+    document.getElementById('next_skills_case').innerHTML = html;
+}
+
+function render_topic(topic) {
+    topic = topics[topic];
+    html =  '<div class="topic" onclick="complete_topic(\''+topic.id+'\')">';
+    html += '<div class="title">';
+    html += topic.title;
+    html += '</div>';
+    html += '<div class="description">';
+    html += '</div><div class="description">';
+    html += topic.description;
+    html += '</div>';
+    html += '</div>';
+    return html;
+}
+
+complete_topic('maths');
